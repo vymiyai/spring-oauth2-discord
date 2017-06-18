@@ -36,4 +36,5 @@ public class App extends WebSecurityConfigurerAdapter {
 	public static void main(String[] args) {
 		SpringApplication.run(App.class, args);
 	}
+
 }

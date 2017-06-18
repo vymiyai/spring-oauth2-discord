@@ -1,12 +1,12 @@
 security:
   oauth2:
     client:
-      clientId: 233668646673605
+      clientId: ${clientId}
       clientSecret: ${clientSecret}
-      accessTokenUri: https://graph.facebook.com/oauth/access_token
-      userAuthorizationUri: https://www.facebook.com/dialog/oauth
+      accessTokenUri: https://discordapp.com/api/oauth2/token
+      userAuthorizationUri: https://discordapp.com/api/oauth2/authorize
       tokenName: oauth_token
       authenticationScheme: query
       clientAuthenticationScheme: form
     resource:
-      userInfoUri: https://graph.facebook.com/me
+      userInfoUri: https://discordapp.com/api/users/@me
