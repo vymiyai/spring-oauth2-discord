@@ -1,8 +1,8 @@
 security:
   oauth2:
     client:
-      clientId: ${clientId}
-      clientSecret: ${clientSecret}
+      clientId: ${CLIENT_ID}
+      clientSecret: ${CLIENT_SECRET}
       accessTokenUri: https://discordapp.com/api/oauth2/token
       userAuthorizationUri: https://discordapp.com/api/oauth2/authorize
       tokenName: oauth_token
