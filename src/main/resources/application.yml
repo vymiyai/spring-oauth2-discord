@@ -5,6 +5,7 @@ security:
       clientSecret: ${CLIENT_SECRET}
       accessTokenUri: https://discordapp.com/api/oauth2/token
       userAuthorizationUri: https://discordapp.com/api/oauth2/authorize
+      scope: identify,email
       tokenName: oauth_token
       authenticationScheme: query
       clientAuthenticationScheme: form
