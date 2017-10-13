@@ -26,3 +26,8 @@ hs_err_pid*
 .project
 .settings/
 target/
+
+# intellij crap.
+.factorypath
+.idea/
+*.iml
