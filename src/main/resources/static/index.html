@@ -17,7 +17,7 @@
 	<h1>Login</h1>
 	<div class="container" ng-show="!home.authenticated">
 		<div>
-		With Facebook: <a href="/login/discord">click here</a>
+		With Discord: <a href="/login/discord">click here</a>
 		</div>
 	</div>
 	<div class="container" ng-show="home.authenticated">
@@ -36,7 +36,7 @@
 						}).controller("home", function($http, $location) {
 					var self = this;
 					$http.get("/user").success(function(data) {
-						self.user = data.userAuthentication.details.name;
+						self.user = data.userAuthentication.details.username;
 						self.authenticated = true;
 					}).error(function() {
 						self.user = "N/A";
